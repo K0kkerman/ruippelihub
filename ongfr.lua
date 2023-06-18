@@ -422,7 +422,7 @@ RightMenu:AddButton('reset', function()
 end)
 
 
-LeftMenu:AddLabel('menu bind'):AddKeyPicker('MenuKeybind', { Default = 'Del', NoUI = true, Text = 'Menu keybind' })
+LeftMenu:AddLabel('menu bind'):AddKeyPicker('MenuKeybind', { Default = 'Insert', NoUI = true, Text = 'Menu keybind' })
 
 
 Library.KeybindFrame.Visible = false
